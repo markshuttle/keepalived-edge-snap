@@ -8,7 +8,6 @@ description: |
 
 grade: devel
 confinement: classic
-base: core18
 
 apps:
   daemon: # until I can get a daemon to show up in /snap/bin/
