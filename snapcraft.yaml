@@ -6,6 +6,7 @@ description: |
   to Linux based infrastructures using VRRP and the well-known Linux Virtual
   Server (IPVS) kernel module.
 
+base: core18
 grade: devel
 confinement: classic
 
