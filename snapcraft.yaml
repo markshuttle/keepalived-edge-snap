@@ -25,5 +25,5 @@ parts:
       libnl-genl-3-dev, libnl-route-3-dev, libnfnetlink-dev,
       libsnmp-dev ]
     configflags: [ '--enable-snmp', '--enable-snmp-rfc']
-    stage-packages: [ libsnmp30, libipset3 ]
+    stage-packages: [ libsnmp30, libipset3, libip6tc0, libxtables12 ]
     source-type: git
